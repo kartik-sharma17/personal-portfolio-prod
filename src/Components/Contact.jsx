@@ -38,7 +38,6 @@ export const Contact = () => {
         ;
     }
 
-
     return (
         <div id='Contact' className={styles.body}>
 
