@@ -5,7 +5,7 @@
 .body{
     display: flex;
     height: 15vh;
-    width: 100vw;
+    /* width: 100vw; */
     justify-content: space-between;
     background-color:#100817;
     padding: 0px 60px;
@@ -18,7 +18,7 @@
 .body_change{
     display: flex;
     height: 15vh;
-    width: 100vw;
+    /* width: 100vw; */
     justify-content: space-between;
     background-color:#060709;
     padding: 0px 60px;

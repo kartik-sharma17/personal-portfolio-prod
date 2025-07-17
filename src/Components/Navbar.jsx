@@ -37,7 +37,7 @@ export const Navbar = () => {
   window.addEventListener('scroll', changecolor)
 
   return (
-    <>
+    <div className='container-fluid'>
       <div className={color ? styles.body_change : styles.body}>
         <div className={styles.nav1}>
           <h2>Contactkartikforwork@gmail.com</h2>
@@ -66,6 +66,6 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }

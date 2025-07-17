@@ -11,8 +11,8 @@ AOS.init();
 
 export const Education = () => {
     return (
-
-        <div id='Education' className={styles.body}>
+        <div className='container-fluid'>
+        <div id='Education' style={{overflowX:"hidden"}} className={styles.body}>
             <div className={styles.heading}>
                 <FontAwesomeIcon data-aos="fade-up" className={styles.icons} icon={faUserGraduate} />
                 <h1 data-aos="fade-up"> My Education</h1>
@@ -43,6 +43,7 @@ export const Education = () => {
             </div>
 
             <div className={styles.forextramargin}></div>
+        </div>
         </div>
 
     )

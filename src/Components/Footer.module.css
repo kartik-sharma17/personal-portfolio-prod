@@ -2,8 +2,8 @@
 /* for footer */
 .footer_main{
     background-color: #100817;
-    height: 50vh;
-    width: 100vw;
+    /* height: 50vh; */
+    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     align-items: center;

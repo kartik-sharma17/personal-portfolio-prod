@@ -16,7 +16,8 @@ AOS.init();
 
 export const Projects = () => {
   return (
-    <div id='Projects' className={styles.body}>
+    <div className='container-fluid'>
+    <div id='Projects' style={{overflowX:"hidden"}} className={styles.body}>
       <div className={`${styles.introtext}`}>
         <h1 data-aos="fade-up">My Recent Projects</h1>
         <p data-aos="fade-down">Passionate about developing new and innovative projects that push the boundaries of 
@@ -35,6 +36,7 @@ export const Projects = () => {
             <Route path='/Android' element={<Android/>} />
           </Routes>
       </div>
+    </div>
     </div>
   )
 }

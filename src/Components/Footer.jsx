@@ -8,6 +8,7 @@ import { faXTwitter, faLinkedinIn, faGithub, faInstagram } from '@fortawesome/fr
 
 export const Footer = () => {
     return (
+        <div className='container-fluid'>
         <div className={`${styles.footer_main}`} >
             <h2 className='mt-4'>Kartik Sharma</h2>
             <div className={styles.footer_nav} class="mt-4">
@@ -25,6 +26,7 @@ export const Footer = () => {
                 <a target="_blank" href="https://www.instagram.com/kartik_sharma__17/"><FontAwesomeIcon className={styles.icons} icon={faInstagram} /></a>
             </div>
             <h5 className='mt-4'>2024 All rights reserved</h5>
+        </div>
         </div>
     )
 }

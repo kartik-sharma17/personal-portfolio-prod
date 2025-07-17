@@ -39,7 +39,8 @@ export const Contact = () => {
     }
 
     return (
-        <div id='Contact' className={styles.body}>
+        <div className='container-fluid'>
+        <div id='Contact' style={{overflowX:"hidden"}} className={styles.body}>
 
             <form onSubmit={send} data-aos="slide-right">
                 <h1>Let's Work Together!</h1>
@@ -77,6 +78,7 @@ export const Contact = () => {
 
                 </div>
             </div>
+        </div>
         </div>
     )
 }

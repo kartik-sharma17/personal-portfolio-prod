@@ -13,6 +13,7 @@ AOS.init();
 
 export const Front = () => {
   return (
+    <div className='container-fluid'>
     <div id="Front" className={styles.body}>
       <div className={`${styles.intro}`}>
         <div className={`${styles.intro_text}`}>
@@ -39,6 +40,7 @@ export const Front = () => {
 
       </div>
 
+    </div>
     </div>
   )
 }

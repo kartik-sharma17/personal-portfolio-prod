@@ -13,8 +13,8 @@ AOS.init();
 
 export const Experiance = () => {
     return (
-
-        <div id='Experience' className={styles.body}>
+        <div className='container-fluid'>
+        <div id='Experience' style={{overflowX:"hidden"}} className={styles.body}>
             <div className={styles.heading}>
                 <FontAwesomeIcon data-aos="fade-up" className={styles.icons} icon={faStar} />
                 <h1 data-aos="fade-up"> My Experience</h1>
@@ -46,6 +46,6 @@ export const Experiance = () => {
 
             <div className={styles.forextramargin}></div>
         </div>
-
+        </div>
     )
 }
