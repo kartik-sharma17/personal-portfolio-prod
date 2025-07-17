@@ -37,6 +37,8 @@ export const Skills = () => {
                             <div className={`${styles.icons_img} ${styles.icon_4}`}></div>
                             <div className={`${styles.icons_img} ${styles.icon_5}`}></div>
                             <div className={`${styles.icons_img} ${styles.icon_6}`}></div>
+                            <div className={`${styles.icons_img} ${styles.icon_24}`}></div>
+                            <div className={`${styles.icons_img} ${styles.icon_25}`}></div>
                         </div>
 
                         <div className={styles.iconssss}>
@@ -52,12 +54,13 @@ export const Skills = () => {
                             <div className={`${styles.icons_img} ${styles.icon_9}`}></div>
                             <div className={`${styles.icons_img} ${styles.icon_10}`}></div>
                             <div className={`${styles.icons_img} ${styles.icon_11}`}></div>
+                            <div className={`${styles.icons_img} ${styles.icon_26}`}></div>
                         </div>
 
                         <div className={styles.iconssss}>
-                            <div className={`${styles.icons_img} ${styles.icon_12}`}></div>
+                            <div className={`${styles.icons_img} ${styles.icon_28}`}></div>
                             <div className={`${styles.icons_img} ${styles.icon_13}`}></div>
-                            <div className={`${styles.icons_img} ${styles.icon_14}`}></div>
+                            <div className={`${styles.icons_img} ${styles.icon_27}`}></div>
                         </div>
 
                         <div className={styles.iconssss}>
@@ -71,19 +74,22 @@ export const Skills = () => {
                     <div className={styles.skills_container_icons}>
 
                         <div className={styles.iconssss}>
-                            <div className={`${styles.icons_img} ${styles.icon_16}`}></div>
+                            {/* <div className={`${styles.icons_img} ${styles.icon_16}`}></div> */}
                             <div className={`${styles.icons_img} ${styles.icon_17}`}></div>
                             <div className={`${styles.icons_img} ${styles.icon_18}`}></div>
+                            <div className={`${styles.icons_img} ${styles.icon_29}`}></div>
                         </div>
 
                         <div className={styles.iconssss}>
                             <div className={`${styles.icons_img} ${styles.icon_19}`}></div>
                             <div className={`${styles.icons_img} ${styles.icon_20}`}></div>
+                            <div className={`${styles.icons_img} ${styles.icon_29}`}></div>
                             <div className={`${styles.icons_img} ${styles.icon_21}`}></div>
                         </div>
 
                         <div className={styles.iconssss}>
-                            <div className={`${styles.icons_img} ${styles.icon_22}`}></div>
+                            {/* <div className={`${styles.icons_img} ${styles.icon_22}`}></div> */}
+                            <div className={`${styles.icons_img} ${styles.icon_31}`}></div>
                             <div className={`${styles.icons_img} ${styles.icon_23}`}></div>
                         </div>
                     </div>

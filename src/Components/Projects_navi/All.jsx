@@ -15,7 +15,6 @@ export const All = () => {
     <div className={styles.body}>
 
       <div className={styles.row1}>
-
         <div data-aos="slide-right" className={`${styles.p} `}>
           <div className={`${styles.p1}`}>
             <div className={styles.anchor}>
@@ -29,7 +28,6 @@ export const All = () => {
             </div>
           </div>
         </div>
-
         <div data-aos="slide-right" className={`${styles.p} `}>
           <div className={`${styles.p2}`}>
             <div className={styles.anchor}>
@@ -43,11 +41,9 @@ export const All = () => {
             </div>
           </div>
         </div>
-
       </div>
 
       <div className={styles.row2}>
-
         <div data-aos="slide-left" className={`${styles.p} `}>
           <div className={`${styles.p3}`}>
             <div className={styles.anchor}>
@@ -61,7 +57,6 @@ export const All = () => {
             </div>
           </div>
         </div>
-
         <div data-aos="slide-left" className={`${styles.p} `}>
           <div className={`${styles.p4}`}>
             <div className={styles.anchor}>
@@ -75,7 +70,6 @@ export const All = () => {
             </div>
           </div>
         </div>
-
       </div>
 
     </div>

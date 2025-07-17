@@ -18,14 +18,16 @@ export const Front = () => {
       <div className={`${styles.intro}`}>
         <div className={`${styles.intro_text}`}>
           <h3 data-aos="fade-up" className={`${'text-light'} ${'ms-2'} ${styles.hov_t}`}>I am Kartik Sharma</h3>
-          <h1 data-aos="fade-down" className={`${styles.hov_t}`}>Java Full Stack <br/> Developer</h1>
+          <h1 data-aos="fade-down" className={`${styles.hov_t}`}>Full Stack <br/> Developer</h1>
           <h5 data-aos="fade-down" className={`${styles.hov_t} ${'mt-3'}`}>
             Crafting seamless web experiences from front to back with Java expertise! Passionate about building
             innovative and scalable solutions
           </h5>
 
           <div className={`${styles.intro_buttons} ${'mt-4'}`}>
+            <a href="/asset/kartik.resume.pdf" download={"kartik.resume.pdf"}>
             <button className={`${styles.btnn} ${styles.hov_b}`}>Download CV <FontAwesomeIcon  icon={faDownload} /></button>
+            </a>
             <div className={styles.icons_parent}>
            <a target="_blank" href="https://x.com/KartikSharma_17"><FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faXTwitter} /></a> 
             <a target="_blank" href="https://www.linkedin.com/in/kartik-sharma-a82482261/"><FontAwesomeIcon className={`${styles.icons} ${styles.hov_b}`} icon={faLinkedinIn} /></a>

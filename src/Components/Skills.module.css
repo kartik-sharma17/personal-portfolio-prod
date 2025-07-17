@@ -1,6 +1,4 @@
-
-
-.body{
+.body {
     background-color: #100817;
     height: 100%;
     width: 100%;
@@ -10,14 +8,14 @@
 }
 
 /* for skills text */
-.skills_text{
+.skills_text {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.skills_text h1{
+.skills_text h1 {
     font-family: "Sora", sans-serif;
     font-weight: 700;
     background: linear-gradient(to right, #8952f8, white);
@@ -26,7 +24,7 @@
     font-size: 4vw;
 }
 
-.skills_text p{
+.skills_text p {
     font-family: "Sora", sans-serif;
     font-weight: 400;
     font-size: 1.2vw;
@@ -34,7 +32,7 @@
 }
 
 /* for skills conatainer */
-.skills_container{
+.skills_container {
     background-color: #1d1127;
     height: 34vh;
     width: 70vw;
@@ -49,24 +47,24 @@
 
 /* for moving animation of container */
 @keyframes slidefromleft {
-    from{
+    from {
         opacity: 0;
         transform: translateX(-200px) scale(0.8);
     }
 
-    to{
+    to {
         opacity: 1;
         transform: translateX(0px) scale(1);
     }
 }
 
 @keyframes slidefromright {
-    from{
+    from {
         opacity: 0;
         transform: translateX(200px) scale(0.8);
     }
 
-    to{
+    to {
         opacity: 1;
         transform: translateX(0px) scale(1);
     }
@@ -74,7 +72,7 @@
 
 
 
-.front_end{
+.front_end {
     /* animation-name: slidefromleft;
     animation-delay: .5s;
     animation-duration: 2s;   
@@ -83,7 +81,7 @@
     left: -100px;
 }
 
-.back_end{
+.back_end {
     /* animation-name: slidefromright;
     animation-delay: .5s;
     animation-duration: 2s;     */
@@ -92,17 +90,17 @@
 }
 
 
-.others{
+.others {
     /* animation-name: slidefromleft;
     animation-delay: .5s;
     animation-duration: 2s; */
     position: relative;
-    left : -100px;
+    left: -100px;
 }
 
 
 /* for tetx inside the conatainer  */
-.skills_container h2{
+.skills_container h2 {
     font-family: "Sora", sans-serif;
     font-weight: 500;
     font-size: 2vw;
@@ -115,7 +113,7 @@
 
 /* for icons container */
 
-.skills_container_icons{
+.skills_container_icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,13 +121,13 @@
     width: 100%;
 }
 
-.iconssss{
+.iconssss {
     display: flex;
 }
 
 
 /* for icons inside skills container */
-.icons_img{
+.icons_img {
     height: 90px;
     width: 90px;
     background-color: #100817;
@@ -139,124 +137,184 @@
 }
 
 /* for animation on icons */
-.icons_img:hover{
+.icons_img:hover {
     background-color: white;
     /* background-color: #2a1454; */
 }
 
-.icon_1{
+.icon_1 {
     background-image: url(/src/Components/PHOTO/icons/icons8-html-240.png);
     background-size: cover;
 }
-.icon_2{
+
+.icon_2 {
     background-image: url(/src/Components/PHOTO/icons/icons8-bootstrap-500.png);
     background-size: cover;
 }
-.icon_3{
+
+.icon_3 {
     background-image: url(/src/Components/PHOTO/icons/icons8-css-500.png);
     background-size: cover;
 }
-.icon_4{
+
+.icon_4 {
     background-image: url(/src/Components/PHOTO/icons/icons8-javascript-500.png);
     background-size: cover;
 }
-.icon_5{
+
+.icon_5 {
     background-image: url(/src/Components/PHOTO/icons/icons8-next.js-500.png);
     background-size: cover;
 }
-.icon_6{
+
+.icon_6 {
     background-image: url(/src/Components/PHOTO/icons/icons8-tailwindcss-500.png);
     background-size: cover;
 }
-.icon_7{
+
+.icon_7 {
     background-image: url(/src/Components/PHOTO/icons/reactt.png);
     background-size: cover;
 }
 
 
 /* for backend icons */
-.icon_9{
+.icon_9 {
     background-image: url(/src/Components/PHOTO/icons/backenf/icons8-java-100.png);
     background-size: cover;
 }
-.icon_10{
+
+.icon_10 {
     background-image: url(/src/Components/PHOTO/icons/backenf/icons8-mongodb-100.png);
     background-size: cover;
 }
-.icon_11{
+
+.icon_11 {
     background-image: url(/src/Components/PHOTO/icons/backenf/icons8-mysql-logo-100.png);
     background-size: cover;
 }
-.icon_12{
+
+.icon_12 {
     background-image: url(/src/Components/PHOTO/icons/backenf/icons8-php-100.png);
     background-size: cover;
 }
-.icon_13{
+
+.icon_13 {
     background-image: url(/src/Components/PHOTO/icons/backenf/icons8-postgresql-100.png);
     background-size: cover;
 }
-.icon_14{
+
+.icon_14 {
     background-image: url(/src/Components/PHOTO/icons/backenf/icons8-spring-boot-100-2.png);
     background-size: cover;
 }
-.icon_15{
+
+.icon_15 {
     background-image: url(/src/Components/PHOTO/icons/backenf/icons8-spring-boot-100.png);
     background-size: cover;
 }
 
 /* for the others */
 
-.icon_16{
+.icon_16 {
     background-image: url(/src/Components/PHOTO/icons/others/icons8-c-programming-500.png);
     background-size: cover;
 }
-.icon_17{
+
+.icon_17 {
     background-image: url(/src/Components/PHOTO/icons/others/icons8-filmora-500.png);
     background-size: cover;
 }
-.icon_18{
+
+.icon_18 {
     background-image: url(/src/Components/PHOTO/icons/others/icons8-git-500.png);
     background-size: cover;
 }
-.icon_19{
+
+.icon_19 {
     background-image: url(/src/Components/PHOTO/icons/others/icons8-github-500.png);
     background-size: cover;
 }
-.icon_20{
+
+.icon_20 {
     background-image: url(/src/Components/PHOTO/icons/others/icons8-intellij-idea-500.png);
     background-size: cover;
 }
-.icon_21{
+
+.icon_21 {
     background-image: url(/src/Components/PHOTO/icons/others/icons8-pycharm-500.png);
     background-size: cover;
 }
-.icon_22{
+
+.icon_22 {
     background-image: url(/src/Components/PHOTO/icons/others/icons8-python-500.png);
     background-size: cover;
 }
-.icon_23{
+
+.icon_23 {
     background-image: url(/src/Components/PHOTO/icons/others/icons8-visual-studio-code-2019-500.png);
+    background-size: cover;
+}
+
+.icon_24 {
+    background-image: url(/image/primereact-logo.webp);
+    background-size: cover;
+}
+
+.icon_25 {
+    background-image: url(/image/technical_12336285.png);
+    background-size: cover;
+}
+
+.icon_26 {
+    background-image: url(/image/icons8-nodejs-480.png);
+    background-size: cover;
+}
+
+.icon_27 {
+    background-image: url(/image/icons8-express-js-500.png);
+    background-size: cover;
+}
+
+.icon_28 {
+    background-image: url(/image/icons8-redux-96.png);
+    background-size: cover;
+}
+
+.icon_29 {
+    background-image: url(/image/icons8-docker-240.png);
+    background-size: cover;
+}
+
+.icon_30 {
+    background-image: url(/image/icons8-figma-480.png);
+    background-size: cover;
+}
+
+.icon_31 {
+    background-image: url(/image/icons8-bitbucket-96.png);
     background-size: cover;
 }
 
 
 /* for responsive */
-@media (min-width:600px) and (max-width :1100px){
+@media (min-width:600px) and (max-width :1100px) {
+
     /* for heading  */
-    .skills_text h1{
+    .skills_text h1 {
         font-size: 4rem;
     }
 
-    .skills_text p{
+    .skills_text p {
         font-size: .8rem;
     }
 
-    .skills_container{
+    .skills_container {
         height: 60vh;
         width: 55vw;
     }
 
-    .skills_container_icons{
+    .skills_container_icons {
         width: 100%;
         height: 100%;
         flex-direction: column;
@@ -264,59 +322,59 @@
     }
 
     /* for icons */
-    .icons_img{
-        height:4.5rem ;
-        width: 4.5rem ;
+    .icons_img {
+        height: 4.5rem;
+        width: 4.5rem;
     }
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
 
-    .skills_text h1{
+    .skills_text h1 {
         font-size: 3.2rem;
     }
 
-    .skills_text p{
+    .skills_text p {
         font-size: 0.7rem;
         margin: 0px 10px;
     }
 
-    .skills_container{
+    .skills_container {
         height: 55vh;
-        width: 80vw;   
-    } 
+        width: 80vw;
+    }
 
-    .skills_container_icons{
+    .skills_container_icons {
         width: 100%;
         height: 100%;
         flex-direction: column;
         align-items: center;
     }
-    
+
     /* for icons */
-    .icons_img{
-        height:4rem ;
-        width: 4rem ;
+    .icons_img {
+        height: 4rem;
+        width: 4rem;
     }
-    
+
     /* for heading inside the container */
-    .skills_container h2{
+    .skills_container h2 {
         font-size: 1.3rem;
     }
 
     /* for positon to center */
-    .front_end{
+    .front_end {
         position: relative;
         left: 0;
     }
 
-    .back_end{
+    .back_end {
         position: relative;
         left: 0;
     }
 
-    .others{
+    .others {
         position: relative;
         left: 0;
     }
